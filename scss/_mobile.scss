@@ -80,7 +80,10 @@
         grid-template-columns: 1fr;
     }
 
-    #contact {
+    main#contact {
+
+        padding: 4rem 2rem;
+
         .lg-heading {
             font-size: 5rem;
         }

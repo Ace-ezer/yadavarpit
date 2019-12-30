@@ -291,5 +291,7 @@ main {
     margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; }
-  #contact .lg-heading {
-    font-size: 5rem; } }
+  main#contact {
+    padding: 4rem 2rem; }
+    main#contact .lg-heading {
+      font-size: 5rem; } }
