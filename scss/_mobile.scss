@@ -68,6 +68,14 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    main#contact {
+
+        padding: 4rem 2rem;
+
+        .lg-heading {
+            font-size: 5rem;
+        }
+    }
 }
 
 // Smartphones
@@ -78,14 +86,5 @@
 
     .projects {
         grid-template-columns: 1fr;
-    }
-
-    main#contact {
-
-        padding: 4rem 2rem;
-
-        .lg-heading {
-            font-size: 5rem;
-        }
     }
 }
