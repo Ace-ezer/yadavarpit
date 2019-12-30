@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive portfolio file.",
   "main": "index.js",
-  "homepage": "http://Ace-ezer.github.io/My-Portfolio",
+  "homepage": "http://Ace-ezer.github.io/yadavarpit",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
