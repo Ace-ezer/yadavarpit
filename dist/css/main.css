@@ -292,5 +292,4 @@ main {
   .projects {
     grid-template-columns: 1fr; }
   #contact .lg-heading {
-    line-height: 0.8;
-    margin-bottom: 1rem; } }
+    font-size: 5rem; } }
