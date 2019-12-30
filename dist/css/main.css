@@ -290,4 +290,7 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  #contact .lg-heading {
+    line-height: 0.8;
+    margin-bottom: 1rem; } }
