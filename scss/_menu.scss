@@ -15,6 +15,13 @@
         @include easeOut;
     }
 
+    &:hover {
+        .btn-line {
+            background: $secondary-color;
+            @include easeOut;
+        }
+    }
+
     // Rotate Into X with menu lines
     &.close {
         transform: rotate(180deg);
@@ -24,6 +31,7 @@
             // Line 1 - Rotate
             &:nth-child(1) {
                 transform: rotate(45deg) translate(5px, 5px);
+                background: $secondary-color;
             }
 
             // Line 2 - Hide
@@ -34,6 +42,7 @@
             // Line 3 - Rotate
             &:nth-child(3) {
                 transform: rotate(-45deg) translate(7px, -6px);
+                background: $secondary-color;
             }
         }
     }
@@ -91,7 +100,7 @@
         .portrait {
             width: 250px;
             height: 250px;
-            background: url('../img/img2.jpg');
+            background: $menu-image;
             background-size: cover;
             border-radius: 50%;
             border: solid 3px $secondary-color;

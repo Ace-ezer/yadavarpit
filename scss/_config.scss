@@ -1,8 +1,9 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: #1d1e22;
+$secondary-color: rgba(0, 189, 0, 0.795); //#feda6a;
 $show-home-image: true;
-$home-image: url("../img/hol.jpg");
+$home-image: url("../img/bg.jpg");
 $background-opacity: 0.9;
+$menu-image: url('../img/img.jpg');
 
 @mixin easeOut {
     transition: all 0.5s ease-out;

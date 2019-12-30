@@ -90,7 +90,7 @@ main {
         border: $secondary-color 3px solid;
         height: 240px;
         width: 240px;
-        background-position: cover;
+        background-size: cover;
     }
 
     .bio {
@@ -147,12 +147,12 @@ main {
     div {
         font-size: 1.2rem;
         border: 3px #fff solid;
-        padding: 1.5rem 2.5rem;
+        padding: 1rem 1.5rem;
         margin-bottom: 3rem;
         @include easeOut;
 
         &:hover {
-            padding: 0.5rem 1.5rem;
+            padding: 0.5rem 1rem;
             background: lighten($secondary-color, 10);
             color: set-text-color($secondary-color);
 
